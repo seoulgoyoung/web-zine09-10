@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ko">
 <head>
   <meta charset="UTF-8">
@@ -227,6 +227,16 @@
 
   <main id="magazineViewport" class="flex-1 px-4 py-5 flex flex-col justify-start">
 
+    <!-- 모든 페이지 공통 상단 로고 -->
+    <div class="flex items-center justify-between mb-4 px-1">
+      <div>
+        <img src="청로고.png" alt="청로고" class="h-6 sm:h-7 object-contain" onerror="this.onerror=null; this.parentElement.innerHTML='<span class=\'text-xs font-bold text-autumn-700\'>청로고.png</span>';" />
+      </div>
+      <div>
+        <img src="센터로고.png" alt="센터로고" class="h-6 sm:h-7 object-contain" onerror="this.onerror=null; this.parentElement.innerHTML='<span class=\'text-xs font-bold text-autumn-700\'>센터로고.png</span>';" />
+      </div>
+    </div>
+
     <div id="page-1" class="page-container page-active space-y-4">
       <div class="text-center pt-1">
         <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-autumn-100 border border-autumn-300 text-autumn-900 text-xs font-black shadow-sm">
@@ -262,26 +272,6 @@
           서툴게 디뎠던 첫걸음이 더 높은 도약이 되는 가을,<br/>
           서울고용복지+센터가 청년들의 내일을 힘차게 응원합니다.
         </p>
-
-        <div class="pt-2 border-t border-amber-200 flex items-center justify-center gap-3 px-2">
-          <div class="flex-1 flex items-center justify-center h-9 bg-white/80 rounded-lg p-1 border border-amber-200">
-            <img 
-              src="서울지방고용노동청_로고.png" 
-              alt="서울지방고용노동청" 
-              class="max-h-full max-w-full object-contain"
-              onerror="this.onerror=null; this.parentElement.innerHTML='<span class=\'text-xs font-bold text-autumn-700\'>서울지방고용노동청</span>';"
-            />
-          </div>
-          <span class="text-amber-400 font-bold text-xs">|</span>
-          <div class="flex-1 flex items-center justify-center h-9 bg-white/80 rounded-lg p-1 border border-amber-200">
-            <img 
-              src="서울고용복지플러스센터_로고.png" 
-              alt="서울고용복지+센터" 
-              class="max-h-full max-w-full object-contain"
-              onerror="this.onerror=null; this.parentElement.innerHTML='<span class=\'text-xs font-bold text-autumn-700\'>서울고용복지+센터</span>';"
-            />
-          </div>
-        </div>
 
         <!-- START! 버튼 메인 카드 안쪽 하단 정중앙 배치 -->
         <div class="pt-2">
